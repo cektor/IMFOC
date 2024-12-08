@@ -1,0 +1,12 @@
+imfoc.desktop
+imfoclo.png
+setup.py
+imfoc/imfoc.desktop
+imfoc/imfoc.py
+imfoc/imfoclo.png
+imfoc.egg-info/PKG-INFO
+imfoc.egg-info/SOURCES.txt
+imfoc.egg-info/dependency_links.txt
+imfoc.egg-info/entry_points.txt
+imfoc.egg-info/requires.txt
+imfoc.egg-info/top_level.txt

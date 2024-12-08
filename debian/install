@@ -1,0 +1,4 @@
+#!/bin/bash
+imfoc.py usr/bin/
+imfoc.desktop usr/share/applications/
+debian/imfoclo.png /usr/share/icons/hicolor/48x48/apps/

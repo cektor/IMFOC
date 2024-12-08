@@ -1,0 +1,10 @@
+Package: imfoc
+Version: 1.0-1
+Architecture: all
+Maintainer: Fatih Önder <fatih@algyazilim.com>
+Installed-Size: 81
+Depends: python3-pillow, python3-pyqt5
+Section: graphics
+Priority: optional
+Homepage: http://www.algyazilim.com
+Description: Bu uygulama, kullanıcıların görüntü dosyalarını kolayca farklı formatlara dönüştürmesine olanak tanır. Sürükle-bırak özelliğiyle kullanıcı dostu bir deneyim sunar; bir görüntü dosyasını uygulamaya sürükleyerek veya etiket alanına tıklayarak dosya seçebilirsiniz.
