@@ -23,7 +23,7 @@ This application allows users to easily convert image files into different forma
 --------------------
 Install Git Clone and Python3
 
-Github Package Must Be Installed On Your Device.
+Github Package Must Be Installed On Your Device..
 
 git
 ```bash
