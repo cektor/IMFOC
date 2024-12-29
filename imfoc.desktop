@@ -1,5 +1,5 @@
 [Desktop Entry]
-Version=1.0
+Version=1.0.2
 Name=IMFOC
 Comment=Image Format Converter
 Exec=python3 /usr/bin/imfoc.py

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=IMFOC
+Comment=Image Format Converter
+Exec=python3 /usr/bin/imfoc.py
+Icon=/usr/share/icons/hicolor/48x48/apps/imfoclo.png
+Terminal=false
+Type=Application
+Categories=Graphics;Utility;
+
+Name[tr_TR]=IMFOC
+

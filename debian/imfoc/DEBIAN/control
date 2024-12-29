@@ -1,10 +1,22 @@
 Package: imfoc
-Version: 1.0-1
+Version: 1.0.2
 Architecture: all
-Maintainer: Fatih Önder <fatih@algyazilim.com>
+Maintainer: Fatih ÖNDER <fatih@algyazilim.com>
 Installed-Size: 81
-Depends: python3-pillow, python3-pyqt5
+Depends: python3-pil, python3-pyqt5, python3:any, python3-tqdm, python3-opencv, python3-numpy
 Section: graphics
 Priority: optional
-Homepage: http://www.algyazilim.com
-Description: Bu uygulama, kullanıcıların görüntü dosyalarını kolayca farklı formatlara dönüştürmesine olanak tanır. Sürükle-bırak özelliğiyle kullanıcı dostu bir deneyim sunar; bir görüntü dosyasını uygulamaya sürükleyerek veya etiket alanına tıklayarak dosya seçebilirsiniz.
+Homepage: https://github.com/cektor
+Description: Image Format Converter with Background Removal
+ IMFOC (IMage FOrmat Converter) is a user-friendly application
+ that allows users to easily convert image files between different
+ formats. It features:
+ .
+  * Support for multiple image formats (PNG, JPEG, GIF, BMP, TIFF, WEBP)
+  * Background removal capability using OpenCV
+  * Drag-and-drop interface
+  * JPEG quality adjustment
+  * Bilingual support (Turkish/English)
+ .
+ This application is developed by ALG Software Inc. to support
+ migration to Pardus Linux.
