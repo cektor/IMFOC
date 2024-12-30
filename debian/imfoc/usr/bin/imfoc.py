@@ -471,7 +471,7 @@ class ImageConverter(QWidget):
     def update_language(self):
         if self.current_language == "tr":
             # Türkçe metinler
-            self.setWindowTitle('IMFOC - Görüntü Format Dönüştürücü')
+            self.setWindowTitle('IMFOC')
             self.info_label_format.setText("Hedef Format")
             self.info_label_quality.setText("JPEG Kalitesi")
             self.drag_label.setText("Görüntü dosyasını buraya sürükleyin veya tıklayın.")
@@ -504,7 +504,7 @@ class ImageConverter(QWidget):
             }
         else:
             # İngilizce metinler
-            self.setWindowTitle('IMFOC - Image Format Converter')
+            self.setWindowTitle('IMFOC')
             self.info_label_format.setText("Target Format")
             self.info_label_quality.setText("JPEG Quality")
             self.drag_label.setText("Drag and drop an image file here or click to select.")

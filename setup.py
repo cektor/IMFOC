@@ -2,15 +2,17 @@ from setuptools import setup
 
 setup(
     name="imfoc",
-    version="1.0",
+    version="1.0.2",
     description="IMFOC - Image Format Converter",
     author="Fatih Önder",
     author_email="fatih@algyazilim.com",
     url="https://github.com/cektor/imfoc",
     packages=['imfoc'],  # Eğer bir modül dizinindeyse değiştirin, yoksa bu alanı kaldırabilirsiniz.
     install_requires=[
-        'pyqt5',  # PyQt5 bağımlılığı
-        'pillow',  # Pillow bağımlılığı
+        'PyQt5',
+        'Pillow',
+        'rembg[cpu]',
+        'onnxruntime-cpu',
     ],
     package_data={
         '': ['*.png', '*.desktop'],  # Paket içindeki tüm .png ve .desktop dosyalarını ekler

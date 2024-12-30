@@ -1,2 +1,4 @@
-pillow
-pyqt5
+Pillow
+PyQt5
+onnxruntime-cpu
+rembg[cpu]
