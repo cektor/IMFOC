@@ -3,18 +3,22 @@ Section: graphics
 Priority: optional
 Maintainer: Fatih ÖNDER <fatih@algyazilim.com>
 Build-Depends: debhelper-compat (= 13),
-               dh-python,
-               python3-all,
-               python3-setuptools,
-               python3-opencv,
-               python3-numpy
+                dh-python,
+                python3-all,
+                python3-setuptools,
+                python3-pyqt5,
+                python3-pil,
+                python3-tqdm,
+                python3-opencv,
+                python3-numpy
 Standards-Version: 4.5.1
 Homepage: https://github.com/cektor
 Rules-Requires-Root: no
 
 Package: imfoc
 Architecture: all
-Depends: ${python3:Depends},
+Depends: python3,
+         ${python3:Depends},
          ${misc:Depends},
          python3-pyqt5,
          python3-pil,

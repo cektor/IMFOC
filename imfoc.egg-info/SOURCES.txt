@@ -1,6 +1,7 @@
 imfoc.desktop
 imfoclo.png
 setup.py
+imfoc/__init__.py
 imfoc/imfoc.desktop
 imfoc/imfoc.py
 imfoc/imfoclo.png

@@ -1,4 +1,5 @@
 Pillow
 PyQt5
-onnxruntime-cpu
-rembg[cpu]
+numpy
+opencv-python
+tqdm

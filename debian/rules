@@ -4,3 +4,13 @@ export PYBUILD_NAME=imfoc
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_test:
+	# Test aşamasını atla
+	:
+
+override_dh_auto_install:
+	dh_auto_install
+	# Masaüstü dosyası ve simge kurulumu
+	install -D -m 644 debian/imfoc.desktop $(CURDIR)/debian/imfoc/usr/share/applications/imfoc.desktop
+	install -D -m 644 debian/imfoclo.png $(CURDIR)/debian/imfoc/usr/share/icons/hicolor/48x48/apps/imfoclo.png

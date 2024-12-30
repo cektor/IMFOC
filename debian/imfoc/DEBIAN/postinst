@@ -3,9 +3,6 @@
 
 set -e
 
-# Kurulum sonrası yapılacaklar
-pip3 install rembg
-
 # Bitiş
 exit 0
 

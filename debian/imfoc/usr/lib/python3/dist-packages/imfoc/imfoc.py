@@ -212,10 +212,13 @@ class ImageConverter(QWidget):
             self.button_about.setText("About")
 
 
-if __name__ == '__main__':
+def main():
+    # Ana uygulama kodunuz buraya gelecek
     app = QApplication(sys.argv)
-    if ICON_PATH:
-        app.setWindowIcon(QIcon(ICON_PATH))
-    ex = ImageConverter()
-    ex.show()
+    window = ImageConverter()
+    window.show()
     sys.exit(app.exec_())
+
+
+if __name__ == "__main__":
+    main()

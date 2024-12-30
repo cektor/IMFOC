@@ -1,30 +1,24 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name="imfoc",
     version="1.0.2",
-    description="IMFOC - Image Format Converter",
-    author="Fatih Önder",
-    author_email="fatih@algyazilim.com",
-    url="https://github.com/cektor/imfoc",
-    packages=['imfoc'],  # Eğer bir modül dizinindeyse değiştirin, yoksa bu alanı kaldırabilirsiniz.
+    packages=find_packages(),
     install_requires=[
         'PyQt5',
         'Pillow',
-        'rembg[cpu]',
-        'onnxruntime-cpu',
-    ],
-    package_data={
-        '': ['*.png', '*.desktop'],  # Paket içindeki tüm .png ve .desktop dosyalarını ekler
-    },
-    data_files=[
-        ('share/applications', ['imfoc.desktop']),  # Uygulama menüsüne .desktop dosyasını ekler
-        ('share/icons/hicolor/48x48/apps', ['imfoclo.png']),  # Simgeyi uygun yere ekler
+        'tqdm',
+        'opencv-python',
+        'numpy'
     ],
     entry_points={
         'gui_scripts': [
-            'imfoc=imfoc:main',  # Uygulamanın giriş noktası (main fonksiyonunun adı imfoc.py'de tanımlı olmalıdır)
-        ]
+            'imfoc=imfoc:main',
+        ],
     },
+    package_data={
+        'imfoc': ['resources/*.ui', 'resources/*.qm', 'resources/*.ts'],
+    },
+    include_package_data=True,
 )
 
