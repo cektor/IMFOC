@@ -100,7 +100,7 @@ class ImageConverter(QWidget):
         self.setWindowTitle('IMFOC')
         self.setWindowIcon(QIcon(ICON_PATH if ICON_PATH else 'imfoclo.png'))
         self.setStyleSheet("background-color: #2E2E2E; color: white;")
-        self.setFixedSize(450, 650)
+        self.setFixedSize(450, 680)
 
         layout = QVBoxLayout()
 
