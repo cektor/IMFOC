@@ -115,7 +115,7 @@ pyinstaller --onefile --noconsole imfoc.py
 
 Linux (based debian) Terminal: Linux (debian based distributions) To install directly from Terminal.
 ```bash
-wget -O Setup_Linux64.deb https://github.com/cektor/IMFOC/releases/download/1.00/Setup_Linux64.deb && sudo apt install ./Setup_Linux64.deb && sudo apt-get install -f -y
+wget -O Setup_Linux64.deb https://github.com/cektor/IMFOC/releases/download/1.0.2/Setup_Linux64.deb && sudo apt install ./Setup_Linux64.deb && sudo apt-get install -f -y
 ```
 
 Windows Installer CMD (PowerShell): To Install from Windows CMD with Direct Connection.
