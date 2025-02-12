@@ -12,6 +12,7 @@ This plugin allows easy format conversion of image files in Nemo File Manager.
 
 ----------------------------------
 # Installing Nemo File Manager Full
+To Install Nemo File Manager with All the Commitment and Necessary Tools
 ```bash
 sudo apt install -y nemo nemo-fileroller nemo-preview nemo-media-columns nemo-image-converter nemo-share
 
