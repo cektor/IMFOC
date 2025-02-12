@@ -130,5 +130,10 @@ Release Page: https://github.com/cektor/IMFOC/releases/tag/1.0.2
 # IMFOC Nemo File Manager Extension
 This plugin allows easy format conversion of image files in Nemo File Manager.
 
+# Screenshot
+![Linux(pardus)](IMFOC-NemoExt/linux_imfocnemo.gif)  
+
+
+
 [Review](https://github.com/cektor/IMFOC/blob/main/Imfoc-Nemo.md)
 ----------------------
