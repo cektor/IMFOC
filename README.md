@@ -11,14 +11,7 @@ This application allows users to easily convert image files into different forma
   <img src="imfoclo.png" alt="IMFOC Logo" width="150" height="150">
 </p>
 
-----------------------
-# IMFOC Nemo File Manager Extension
-This plugin allows easy format conversion of image files in Nemo File Manager.
-
-[Review](https://github.com/cektor/IMFOC/blob/main/Imfoc-Nemo.md)
-
-
-----------------------
+----------------------------------
 
 # Linux Screenshot
 ![Linux(pardus)](screenshot/imfoc_linux.gif)  
@@ -131,4 +124,11 @@ powershell -Command "Invoke-WebRequest -Uri 'https://github.com/cektor/IMFOC/rel
 
 Release Page: https://github.com/cektor/IMFOC/releases/tag/1.0.2
 
-----------------------------------
+
+
+----------------------
+# IMFOC Nemo File Manager Extension
+This plugin allows easy format conversion of image files in Nemo File Manager.
+
+[Review](https://github.com/cektor/IMFOC/blob/main/Imfoc-Nemo.md)
+----------------------
