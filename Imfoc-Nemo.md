@@ -11,6 +11,12 @@ This plugin allows easy format conversion of image files in Nemo File Manager.
 ![Linux(pardus)](IMFOC-NemoExt/linux_imfocnemo.gif)  
 
 ----------------------------------
+# Installing Nemo File Manager Full
+```bash
+sudo apt install -y nemo nemo-fileroller nemo-preview nemo-media-columns nemo-image-converter nemo-share
+
+```
+----------------------
 
 # Installation
 Install IMFOC-Nemo Ext.
